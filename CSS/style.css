@@ -1,0 +1,119 @@
+*{margin:0;
+padding: 0;}
+body
+{
+background-image: url(../img/fon.jpg);
+}
+.page{
+	margin-right: 5%;
+	margin-left: 5%;
+	overflow: hidden;
+   	display: flex;
+   	flex-direction: column;
+   	min-height: 100vh;
+}
+header{
+	width: 100%;
+	height: 10%;
+	margin-top: 1%;
+	background-image: url(../img/shapka.jpg);
+	  border-radius: 20px; 
+    border: 3px solid red;
+}
+.logo {
+	width: 300px;
+	float: left;
+	height: 10%;
+}
+.logo a{
+	display: block;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-weight: 900;
+	font-family: inherit;
+	font-style: italic;
+	font-size: 30px;
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+}
+.gimno{
+color:deeppink;
+}
+.sport{color:aqua;}
+.logo p {margin-left: 3%; margin-top: 1%; color:white; font-style: italic; font-weight: 900;}
+.navbar{
+	width: 700px;
+	height: 80px;
+	margin-left: 45%;
+}
+.ul .li {
+	float: left;
+	list-style: none;
+	display: inline-block;
+	margin-top: 5%;
+    margin-left: 5%;
+}
+.ul .li a {
+	display: block;
+	font-weight: 900;
+	font-family: inherit;
+	font-style: italic;
+	font-size: 20px;
+	color:white;
+	text-decoration: none;
+	cursor: pointer;
+}
+footer
+   {
+   	color: white;
+   	font-weight: 500;
+   	font-style: initial;
+   	font-size: 15px;
+margin-top: auto;
+margin-top: 5%;
+   }
+   .conteiner{margin-top: 10%;}
+  .content{color: white; text-align: center;}
+  .text{margin-top: 10%; font-style: italic; font-size: 25px; font-weight: 900;}
+.round {
+    border-radius: 100px; 
+    border: 3px solid black; 
+    box-shadow: 0 0 7px #666; 
+   }
+   .shop{
+	margin-top: 5%;
+}
+.shopUl{text-align: center;}
+.shopUl .shopLi {
+	display: inline-block;
+	list-style: none;
+	margin-left: 2%;
+	margin-top: 2%;
+	color: white;
+	font-size: 30px;
+	font-weight: 900;
+	font-style: initial;
+}
+.cena {  mix-blend-mode: multiply;}
+.shopLi:hover>.cena{
+color:black; 
+}
+.tcontent{
+	float: left;
+}
+.textop{color:white; margin-left: 10%; font-style: italic;font-size: 30px; font-weight: 500;}
+.byer{width: 300px; margin-left: 50%;}
+.byer a{cursor: pointer;}
+   .by{height: 50px; width: 200px;font-size: 15pt;border:3px solid white;}
+   .by:hover{border-color: black;}
+   .form-text{width: 300px; height: 100px;padding-top: 0;border-radius: 20px; 
+    border: 1px solid black; margin-top: 1%;}
+   .form{text-align: center;}
+   .glav{font-size: 40px; color: white; font-weight: 900;font-style: initial;}
+   .form-button{width: 200px;height: 50px; margin-top:5%;}
+   .my-photo{ margin-top: 10%; }
+   .porfolio{margin-top: 5%;}
+   .porfolio-ul .p-li{display: inline-block;
+	list-style: none;}
+   .text-li{margin-left: 10%; padding-top: 0%;color:white;font-weight: 900;font-style: initial;font-size: 16px;}
